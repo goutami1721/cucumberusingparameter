@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-08T16:02:42 IST" name="Default suite" finished-at="2023-12-08T16:04:31 IST" duration-ms="108390">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Testrunners.testpagerunner@57a78e3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-12-08T16:02:42 IST" name="Default test" finished-at="2023-12-08T16:04:31 IST" duration-ms="108390">
+      <class name="Testrunners.testpagerunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Testrunners.testpagerunner@57a78e3]" started-at="2023-12-08T16:02:42 IST" name="setUpClass" finished-at="2023-12-08T16:02:43 IST" duration-ms="265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7f9fc8bd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Testrunners.testpagerunner@57a78e3]" started-at="2023-12-08T16:02:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-08T16:03:32 IST" duration-ms="49940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify parameters"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["verify parameter demo"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Testrunners.testpagerunner@57a78e3]" started-at="2023-12-08T16:03:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-08T16:04:18 IST" duration-ms="45064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify parameters"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["verify parameter demo"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Testrunners.testpagerunner@57a78e3]" started-at="2023-12-08T16:04:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-08T16:04:24 IST" duration-ms="6285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify expandtesting validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify expandtesting feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Testrunners.testpagerunner@57a78e3]" started-at="2023-12-08T16:04:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-08T16:04:31 IST" duration-ms="6765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify expandtesting validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify expandtesting feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Testrunners.testpagerunner@57a78e3]" started-at="2023-12-08T16:04:31 IST" name="tearDownClass" finished-at="2023-12-08T16:04:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Testrunners.testpagerunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
